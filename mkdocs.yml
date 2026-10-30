@@ -1,0 +1,34 @@
+site_name: winget for Mere Mortals
+site_url: https://paulsullivan33-dev.github.io/winget-for-mere-mortals/
+site_description: Windows Package Manager from the command line. Searching, installing, upgrading, pinning and removing software with winget, moving your whole set of programs to a new PC with export and import, and the limits stated plainly.
+repo_url: https://github.com/paulsullivan33-dev/winget-for-mere-mortals
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.superfences
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/paulsullivan33-dev/winget-for-mere-mortals
+copyright: Part of <a href="https://paulsullivan33-dev.github.io/mere-mortals/">For Mere Mortals</a> · Text CC BY 4.0, code MIT
+nav:
+  - Home: index.md
+  - What winget Is: what-winget-is.md
+  - The Moving Parts: the-moving-parts.md
+  - Checking winget Is There: checking-winget.md
+  - Finding Software: finding-software.md
+  - Installing Software: installing-software.md
+  - Keeping Software Up to Date: keeping-up-to-date.md
+  - Removing Software: removing-software.md
+  - Sources — Where Packages Come From: sources.md
+  - Settings: settings.md
+  - A New PC, End to End: a-new-pc-end-to-end.md
+  - The Neighbours: the-neighbours.md
+  - Limits: limits.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
